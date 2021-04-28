@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SMU</string>
+
+    <string-array name="user_name">
+        <item>황의혁</item>
+        <item>마의혁</item>
+        <item>의혁황</item>
+        <item>hyuk</item>
+    </string-array>
+
+    <string-array name="chat_content">
+        <item>밥먹자 ! </item>
+        <item>석우밀 먹자 </item>
+        <item>맘스터치 ㄱㄱ</item>
+        <item>ㄱㄱ ?</item>
+    </string-array>
+</resources>
