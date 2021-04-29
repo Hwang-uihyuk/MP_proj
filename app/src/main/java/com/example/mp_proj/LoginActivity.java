@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 login();
-                Log.d("아니니니",mAuth.getCurrentUser().getEmail());
+
 
             }
         });
