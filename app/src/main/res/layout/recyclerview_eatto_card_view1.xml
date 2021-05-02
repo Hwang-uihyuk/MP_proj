@@ -30,7 +30,8 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0"></TextView>
+                app:layout_constraintVertical_bias="0.0"
+                android:fontFamily="@font/locus_sangsang"></TextView>
 
             <TextView
                 android:id="@+id/cv_textView2"
@@ -40,7 +41,8 @@
                 android:text="학식"
                 app:layout_constraintBottom_toTopOf="@+id/cv_textView3"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cv_textView1"></TextView>
+                app:layout_constraintTop_toBottomOf="@+id/cv_textView1"
+                android:fontFamily="@font/locus_sangsang"></TextView>
 
             <TextView
                 android:id="@+id/cv_textView3"
@@ -50,7 +52,8 @@
                 android:text=""
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cv_textView2"></TextView>
+                app:layout_constraintTop_toBottomOf="@+id/cv_textView2"
+                android:fontFamily="@font/locus_sangsang"></TextView>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 

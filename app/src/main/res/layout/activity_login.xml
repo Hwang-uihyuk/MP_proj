@@ -2,22 +2,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:text="로그인"
+        android:layout_height="184dp"
+
+        android:fontFamily="@font/locus_sangsang"
+        android:gravity="center|left"
+        android:text="Login"
+        android:textColor="#000000"
         android:textSize="24dp"
         android:textStyle="bold"
-        android:textColor="#000000"
-       android:gravity="center"
+
+
         />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+
+        android:layout_width="433dp"
+        android:layout_height="131dp"
         android:orientation="vertical"
         android:padding="10dp">
 
@@ -27,8 +34,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:ems="10"
+            android:fontFamily="@font/locus_sangsang"
+
             android:hint="이메일"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:drawableStart="@drawable/login_logo"/>
+
 
         <EditText
             android:id="@+id/passwordEditText"
@@ -36,21 +47,35 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:ems="10"
+            android:fontFamily="@font/locus_sangsang"
             android:hint="비밀번호"
-            android:inputType="textPassword" />
-
-        <Button
-            android:id="@+id/loginButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="로그인" />
-
-        <Button
-            android:id="@+id/go_signUpButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="회원가입" />
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/login_logo2"/>
 
     </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:background="@drawable/ak"
+                android:fontFamily="@font/locus_sangsang"
+                android:text="로그인" />
+
+            <Button
+                android:id="@+id/go_signUpButton"
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:background="@drawable/ak"
+                android:fontFamily="@font/locus_sangsang"
+                android:text="회원가입" />
+
+
+        </LinearLayout>
 
 </LinearLayout>
+
+

@@ -13,6 +13,7 @@
         android:textStyle="bold"
         android:textColor="#000000"
        android:gravity="center"
+        android:fontFamily="@font/locus_sangsang"
         />
 
     <LinearLayout
@@ -29,7 +30,8 @@
             android:ems="10"
             android:hint="이름"
             android:inputType="textPersonName"
-            android:text="" />
+            android:text=""
+            android:fontFamily="@font/locus_sangsang"/>
 
         <EditText
             android:id="@+id/phoneNumberEditText"
@@ -38,6 +40,7 @@
             android:ems="10"
             android:inputType="phone"
             android:hint="전화번호"
+            android:fontFamily="@font/locus_sangsang"
             />
 
         <EditText
@@ -47,6 +50,7 @@
             android:ems="10"
             android:inputType="date"
             android:hint="생년월일"
+            android:fontFamily="@font/locus_sangsang"
             />
 
         <EditText
@@ -56,13 +60,15 @@
             android:ems="10"
             android:inputType="textPostalAddress"
             android:hint="주소"
+            android:fontFamily="@font/locus_sangsang"
             />
 
         <Button
             android:id="@+id/checkButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="확인" />
+            android:text="확인"
+            android:fontFamily="@font/locus_sangsang"/>
 
     </LinearLayout>
 

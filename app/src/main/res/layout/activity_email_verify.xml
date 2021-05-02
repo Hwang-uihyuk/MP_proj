@@ -13,7 +13,9 @@
         android:text="이메일인증"
         android:textColor="#000000"
         android:textSize="24dp"
-        android:textStyle="bold" />
+
+        android:textStyle="bold"
+        android:fontFamily="@font/locus_sangsang"/>
 
     <TextView
         android:id="@+id/showVeriText"
@@ -21,19 +23,22 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text=""
-        android:textSize="30dp" />
+        android:textSize="30dp"
+        android:fontFamily="@font/locus_sangsang"/>
 
     <Button
         android:id="@+id/send_check_verify"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="인증메일보내기" />
+        android:text="인증메일보내기"
+        android:fontFamily="@font/locus_sangsang"/>
 
     <Button
         android:id="@+id/check_verify"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="false"
-        android:text="인증완료" />
+        android:text="인증완료"
+        android:fontFamily="@font/locus_sangsang"/>
 
 </LinearLayout>

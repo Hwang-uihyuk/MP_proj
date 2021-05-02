@@ -13,18 +13,21 @@
         android:textStyle="bold"
         android:textColor="#000000"
        android:gravity="center"
+        android:fontFamily="@font/locus_sangsang"
         />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:fontFamily="@font/locus_sangsang">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:fontFamily="@font/locus_sangsang">
 
             <EditText
                 android:id="@+id/sign_emailEditText"
@@ -33,7 +36,8 @@
                 android:layout_marginBottom="5dp"
                 android:ems="10"
                 android:hint="이메일"
-                android:inputType="text" />
+                android:inputType="text"
+                android:fontFamily="@font/locus_sangsang"/>
 
             <TextView
                 android:id="@+id/textView2"
@@ -43,6 +47,7 @@
                 android:text="\@sangmyung.kr"
                 android:textSize="20dp"
                 android:gravity="fill"
+                android:fontFamily="@font/locus_sangsang"
                 />
         </LinearLayout>
 
@@ -54,7 +59,8 @@
             android:layout_marginBottom="5dp"
             android:ems="10"
             android:hint="비밀번호"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:fontFamily="@font/locus_sangsang"/>
 
         <EditText
             android:id="@+id/sign_passwordCheckEditText"
@@ -62,13 +68,15 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="비밀번호 확인"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:fontFamily="@font/locus_sangsang"/>
 
         <Button
             android:id="@+id/signUpButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="확인" />
+            android:text="확인"
+            android:fontFamily="@font/locus_sangsang"/>
 
     </LinearLayout>
 
